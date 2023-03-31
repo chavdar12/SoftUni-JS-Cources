@@ -1,0 +1,39 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 50px 100px 100px 100px;
+}
+
+header article {
+    display: inline-block;
+    border-left: 3px solid #656565;
+    padding: 0 0 0 30px;
+}
+
+header article:nth-child(1) {
+    width: 63.5%;
+}
+
+header article h2 {
+    font-size: 42px;
+    letter-spacing: 10px;
+}
+
+header article p {
+    color: #656565;
+}
+
+main article {
+    display: inline-block;
+    width: 30%;
+    padding: 30px 35px 0 0;
+}
+
+main article p {
+    font-size: 18px;
+}
+
+main article img {
+    width: 400px;
+    height: 230px;
+    padding-left: 0;
+}

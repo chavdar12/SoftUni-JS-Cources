@@ -1,0 +1,66 @@
+body {
+    font-family: "Helvetica",
+    sans-serif;
+    margin: 0
+}
+
+nav {
+    background: #234465;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+header p {
+    font-style: Italic;
+}
+
+article p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    background: #234465;
+}

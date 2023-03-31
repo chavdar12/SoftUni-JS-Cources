@@ -1,0 +1,113 @@
+body {
+    font-family: "Helvetica",
+    sans-serif;
+    margin: 0;
+    padding: 0 15rem;
+    font-size: 12px;
+    background: #F0F1F5
+}
+
+header {
+    color: #F9690E;
+}
+
+header > p {
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+}
+
+header > p i {
+    font-size: 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #F9690E;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 0 0 8px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: #F9690E;
+}
+
+main section:nth-child(1) {
+    background-image: url("../Requirements-and-Resources/Images/picture.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+}
+
+main section:nth-child(1) h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 3px;
+    margin: 20px 0px;
+}
+
+main section:nth-child(1) span {
+    color: #F9690E;
+}
+
+main section:nth-child(1) button {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: #F9690E;
+    border: 0;
+    padding: 10px;
+    margin: 0 13rem;
+}
+
+main section:nth-child(1) button:hover {
+    color: #F9690E;
+    background: white;
+}
+
+main section:nth-child(2) article {
+    color: white;
+    background: #F9690E;
+    width: 25%;
+    display: inline-block;
+    padding: 0 35px;
+    margin: 0
+}
+
+main section:nth-child(2) article h3 {
+    text-align: center;
+}
+
+main section:nth-child(2) article p {
+    text-align: justify;
+    font-size: 13px;
+}
+
+footer article {
+    margin: 20px 0;
+    width: 49.5%;
+    display: inline-block;
+}
+
+footer article:nth-child(2) {
+    text-align: right;
+}
+
+footer article:nth-child(2) i {
+    padding: 0 15px;
+}

@@ -1,0 +1,14 @@
+body {
+    margin-left: 510px;
+    margin-right: 510px;
+    background: #E6E5E5;
+}
+
+h3 {
+    color: #234E78;
+    text-align: center;
+}
+
+li {
+    text-decoration: underline;
+}

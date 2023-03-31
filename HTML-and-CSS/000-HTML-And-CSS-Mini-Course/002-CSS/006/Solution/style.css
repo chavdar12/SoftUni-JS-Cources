@@ -1,0 +1,99 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 180px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    width: 1010px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0;
+}
+
+nav ul a {
+    color: rgb(214, 116, 114);
+    text-decoration: none;
+    text-align: center;
+}
+
+main section article:nth-child(1) {
+    background-image: linear-gradient(to bottom, rgba(166, 166, 166, 0.52), rgba(89, 89, 89, 0.73)),
+    url("../Requirements-and-Resources/Images/header-flower.png");
+    background-size: 100% 100%;
+    width: 450px;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 150px 280px;
+}
+
+main section article:nth-child(1) h1 {
+    font-size: 34px;
+}
+
+main section article:nth-child(1) hr {
+    width: 60px;
+    border: 1px solid rgb(214, 116, 114);
+}
+
+main section article:nth-child(2) {
+    background: rgb(214, 116, 114);
+    color: white;
+    width: 450px;
+    text-align: center;
+    padding: 40px 280px;
+}
+
+main section article:nth-child(2) hr {
+    width: 60px;
+    border: 1px solid white;
+}
+
+main section article:nth-child(2) button {
+    color: rgb(214, 116, 114);
+    margin: 10px 0 0 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+main section:nth-child(2) {
+    width: 830px;
+    text-align: center;
+    padding: 30px 90px;
+}
+
+main section:nth-child(2) h1 {
+    text-align: center;
+}
+
+main section:nth-child(2) hr {
+    width: 60px;
+    border: 1px solid rgb(214, 116, 114);
+}
+
+main section:nth-child(2) article {
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+main section:nth-child(2) article img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background: rgb(214, 116, 114);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 990px;
+}

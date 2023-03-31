@@ -1,0 +1,39 @@
+body {
+    background: #FAEBC8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#demoObject {
+    margin: 65px 150px;
+    text-align: center;
+    vertical-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #000000;
+    background: #FFFFFF;
+}
+
+#demoObject article {
+    display: inline-block;
+    width: 22%;
+    margin: 30px;
+    vertical-align: top;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    text-align: left;
+}
+
+div {
+    text-shadow: 20px 20px 2px #333333;
+    font-style: italic;
+    color: #CE5937;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 110px;
+}
